@@ -47,6 +47,20 @@ body > div.container-fluid > div > div.col-lg-7.px-0 > div > div.owl-dots{
   color:#f0ebeb ;
 }
 
+.thelink{
+  color: white !important;
+}
+.thelink:hover{
+  background-color: rgb(31, 30, 30);
+}
+
+.link-main{
+  text-decoration: none;
+}
+.link-main:hover{
+  text-decoration: underline;
+}
+
 
 
  
