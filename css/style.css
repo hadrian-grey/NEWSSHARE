@@ -14,6 +14,13 @@ body{
 }
 
 
+@media(max-width:799px){
+  .one{
+    height: 250px;
+    overflow: hidden;
+  }
+}
+
 .overlay {
   position: absolute;
   width: 100%;
