@@ -1,9 +1,9 @@
 *{
     font-family: 'Roboto Slab', serif;
 }
-body{
+/* body{
     background-color: rgb(231, 229, 229);
-}
+} */
 
 .dropdown-content {
   display: none;
@@ -19,6 +19,16 @@ body{
     height: 250px;
     overflow: hidden;
   }
+  
+}
+
+.media {
+  display: flex;
+  align-items: flex-start;
+}
+
+.media-body {
+  flex: 1;
 }
 
 .overlay {
