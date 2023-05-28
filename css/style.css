@@ -298,7 +298,7 @@ p, ul li, ol li {
     transition:all .3s ease-in-out;
 }
 .cont-div{
-    height: 350px;
+    height: 400px;
 }
 .cont-div:hover img{
     transform: scale(1.1);
