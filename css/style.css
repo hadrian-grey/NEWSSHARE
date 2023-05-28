@@ -282,7 +282,43 @@ p, ul li, ol li {
     display: block;
     font-size: 13px;
     margin-bottom: 5px;
-    padding-bottom: 10px;
+    padding-bottom: 10px !important;
 }
 
-/* Credit to https://bootsnipp.com/snippets/X2XOv */
+.latest-image{
+    width: 100% !important;
+    height: 200px !important;
+    object-fit: cover ;
+}
+.image-div{
+    overflow: hidden;
+}
+
+.image-div img{
+    transition:all .3s ease-in-out;
+}
+.cont-div{
+    height: 350px;
+}
+.cont-div:hover img{
+    transform: scale(1.1);
+}
+
+.thecard{
+    width: 300px !important;
+    background:transparent;
+}
+
+@media(max-width:700px){
+    .thecard{
+        width: 100% !important;
+    }
+}
+
+.badge{
+    text-decoration: none;
+    background-color:#2d2d46 ;
+    margin-bottom: 5px !important;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
